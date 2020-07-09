@@ -7,20 +7,23 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
     <link rel="stylesheet" href="index.css">
-    <title>MZ PORTFOLIO</title>
+    <title>HOME</title>
 
   </head>
   <body class="bodyyy">
           <!-- HEADER_NAVBAR_(START) -->
-            <header>
+            <header class="content center">
               <div class="container-fluid" style="margin-top: -25;">
                 <div class="row" style="background-color: white;">
-                  <div class="column-fluid col-md-2 yourname box-shadow">
-                    <p>MIKE ZLOTKOWSKI</p>
+                  <div class="column-fluid col-md-3 yourname box-shadow">
+                    <p><img src="./assets/images/mzlogo.png" alt="MZ Logo" height="70px" width="90px"/></p>
                   </div>
-                  <div class="column-fluid col-md-10 text-md-right text-center ml-auto">
-                    <a class="navbar-brand nav-link text-secondary" href="index.html">ABOUT</a>
+                  <div class="column-fluid col-md-9 text-md-right text-center ml-auto" style="padding-bottom: 25px;">
+                    <a class="navbar-brand nav-link text-secondary" href="index.html">HOME</a>
                     <a class="navbar-brand nav-link text-secondary" href="portfolio.html">PORTFOLIO</a>
                     <a class="navbar-brand nav-link text-secondary mr-0" href="contact.html">CONTACT</a>
                   </div>
@@ -31,25 +34,25 @@
           
           <!-- INDEX_ABOUT_ME_(START) -->
             
-              <div class="container-fluid">
-                <div class="row" style="margin-top: 0;">
-                  <div class="col-lg-9 col-md rounded-lg bg-light m-5 text-lg-left">
-                    <div class="row boxshadow" style="text-align: center;">
-                        <h1 style="text-align: center; color:teal">About Me</h1>
-                    </div>
+              <div class="container">
+                <div class="row" style="text-align: center;">
+                  <div class="rounded-lg bg-light m-5">
+                        <h1 class="center" style="color:teal">About Me</h1>
                     <br>
                     <div class="row" style="text-align: center;">
-                      <div class="text-block column-fluid" style="color: teal, ml= 20px">
-                        <img style="align-items:center; padding-left: 20px;" src="./assets/images/mdzprofilepic.png" alt="mdz" height="300px" width="300px">
-                        <br>
-                        <p>MZ PROFILES:</p>
-                        <a href="https://www.linkedin.com/in/mikey-zlotkowski-1230a068/">LINKEDIN</a>
-                        <br>
-                        <a href="https://github.com/MikeyZ89">GIT-HUB</a>
+                      <div class="text-block column-fluid">
+                        <div class="card" style="width: 23rem;">
+                          <img class="card-img-top" src="./assets/images/mdzprofilepic.png" alt="MZ Profile Pic">
+                          <div class="card-body">
+                            <h5 class="card-title">Mike Zlotkowski</h5>
+                            <p class="card-text">BootStrap Portfolio</p>
+                            <a href="https://www.linkedin.com/in/mike-zlotkowski/" class="btn btn-primary">LinkedIn</a>
+                            <a href="https://github.com/MikeyZ89" class="btn btn-success">GitHub</a>
+                          </div>
+                        </div>
                       </div>
                     </div>
                     <br>
-                    </div>
                   </div>
                 </div>
               </div>
@@ -69,7 +72,7 @@
     <div class="container">
       <div class="row footer-row">
         <div class="col-12">
-          <p>MDZ @ Copyright 2020</p>
+          <p><img src="./assets/images/mzlogo.png" alt="MZ Logo" height="30px" width="50px"/> All Rights Reserved 2020</p>
         </div>
       </div>
     </div>
